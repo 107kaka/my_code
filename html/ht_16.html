@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>ht_16简单的表单示例</title>
+  </head>
+  <body>
+    <form action="" method="post" accept-charset="utf-8">
+      <table border="0" cellspacing="20" cellpadding="5">
+      <tr><td>
+	  <table border="0">
+	    <tr>
+	      <td> <p> <label for="fname">姓：</label> </p> </td>
+	      <td> <p> <input type="text" name="frame" id="frame" size="20"/> </p> </td>
+	    </tr>
+	    <tr>
+	      <td> <p> <label for="lname">名：</label> </p> </td>
+	      <td> <p> <input type="text" name="lname" id="lname" size="20"/> </p> </td>
+	    </tr>
+        </tr>
+      </table>	
+      <!-- 文本区域 /-->
+      <p>
+      <label for="address">地址：</label><br />
+      <textarea name="address" id="address" cols="20" rows="4"/></textarea>
+      </p>
+      <!-- 口令 /-->
+      <table border="0">
+      <tr>
+        <td>
+	  <p>
+	  <label for="password">密码：</label>
+	  </p>
+	</td>
+	<td>
+	  <p>
+	  <input type="text" name="password" id="password" size="20"/>
+	  </p>
+	</td>
+      </tr>
+      </table>
+      </td>
+      <td>
+      <!-- 选择列表 /-->
+      <p>
+      <label for="habits">爱好？
+      </p>
+      <select name="habits[]" id="habits" multiple="multiple" size="4"/>
+        <option id="movie">影视</option>
+        <option id="reading">阅读</option>
+        <option id="game">电子游戏</option>
+        <option id="sports">运动</option>
+        <option id="other">其他</option>
+      </select>
+      </p>
+
+      <!-- 复选框 /-->
+      <fieldset>
+        <legend>通过何种渠道了解我们</legend>
+	<p>
+	  <input type="checkbox" name="email" id="email" checked>
+	  <label for="email">电子邮件</label><br />
+	  <input type="checkbox" name="postal" id="postal">
+	  <label for="postal">直邮广告</label>
+	</p>
+      </fieldset>
+
+      </td>
+      </tr>
+      <tr>
+      <td>
+
+      <!-- 单选按钮 /-->
+      <fieldset>
+        <legend>每年您外出游玩几次？</legend>
+	<p>
+	  <label for="onethree1-3">1-3</label>
+	  <input type="radio" name="buy" value="onethree" id="onethree">
+	  <label for="fiveten">5-10</label>
+	  <input type="radio" name="buy" value="fiveten" id="fiveten">
+	  <label for="tenfifteen">就在本月</label>
+	  <input type="radio" name="buy" value="tenfifteen" id="tenfifteen">
+	</p>
+      </fieldset>
+
+      </td>
+      <td>
+	
+      <!-- 提交和重置按钮 /-->
+      <p>
+        <input type="submit" />&nbsp;&nbsp;&nbsp;
+        <input type="reset" />
+      </p>
+
+      <!-- 普通按钮 /-->
+      <p>
+        <input type="button" name="Leave" value="离开网站! ">
+      </p>
+
+      <!-- 图片 /-->
+      <input type="image" name="imagebutton" src="008.jpg">
+
+      <!-- 隐藏字段 /-->
+      <input type="hidden" name="referredby" value="Google">
+
+      </td>
+      </tr>
+      </table>
+
+    </form>
+  </body>
+</html>
