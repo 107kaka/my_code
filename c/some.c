@@ -1,12 +1,12 @@
 /*
  * =====================================================================================
  *
- *       Filename:  new.c
+ *       Filename:  some.c
  *
- *    Description:  G
+ *    Description:  
  *
  *        Version:  1.0
- *        Created:  2013年11月26日 22时44分34秒
+ *        Created:  2013年11月26日 23时46分55秒
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -20,6 +20,6 @@
 
 int main(int argc, char *argv[])
 {
-	/* code */
+	/* code /
 	return 0;
 }
