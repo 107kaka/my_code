@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
 		input[j] = temp;
 	}
 
-	printf("具有最短时间的序列如下:\n");
+	printf("具有最短时间的序列如下所示:\n");
 	printf("a  b  locate\n");
 	for (i = 0; i < MAX; ++i){
 		printf("%d  %d  %d\n",input[i].a, input[i].b, input[i].locate);
