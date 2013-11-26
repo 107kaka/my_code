@@ -21,5 +21,7 @@
 int main(int argc, char *argv[])
 {
 	printf("test\n");
+	printf("add something\n");
+	printf("add something\n");
 	return 0;
 }
